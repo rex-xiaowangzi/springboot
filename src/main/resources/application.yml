@@ -1,0 +1,16 @@
+#DB Configation
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/stu
+    username: root
+    password: root
+  jpa:
+    database: MySQL
+    show-sql: true
+    generate-ddl: true
+  redis:
+    host: 192.168.30.10
+    port: 6379
+page:
+  rows: 50
